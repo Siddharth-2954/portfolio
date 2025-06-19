@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    align-items: top;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    object-fit: cover;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items:normal;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
